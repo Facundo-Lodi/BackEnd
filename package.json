@@ -1,11 +1,19 @@
 {
-  "name": "backend-lodi",
+  "name": "backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "BackEnd Facundo Lodi",
   "main": "ProductManager.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node App.js"
   },
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "Neal Shusterman",
+    "libros",
+    "backend"
+  ],
+  "author": "Facundo Lodi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.1"
+  }
 }
